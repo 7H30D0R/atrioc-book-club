@@ -216,6 +216,10 @@ node_modules/
 **/node_modules/
 jspm_packages/
 
+# Auto-generated packaged front-end
+*/static/frontend/main.js
+*/static/frontend/main.js.LICENSE.txt
+
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
