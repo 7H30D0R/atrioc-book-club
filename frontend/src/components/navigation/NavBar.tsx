@@ -7,6 +7,7 @@ import Image from 'react-bootstrap/Image';
 import logo_purple from '../../../../static/img/logo-purple.png';
 import React, { useContext } from 'react';
 import AuthContext from '../../contexts/authContext';
+import DarkModleToggle from './DarkModeToggle';
 
 function NavBar() {
 	const { isAuthenticated, user } = useContext(AuthContext);
@@ -80,6 +81,7 @@ function NavBar() {
 							<Nav.Link href='/login/discord/'>Login</Nav.Link>
 						)}
 					</Nav>
+					<DarkModleToggle />
 				</Navbar.Collapse>
 			</Container>
 		</Navbar>
